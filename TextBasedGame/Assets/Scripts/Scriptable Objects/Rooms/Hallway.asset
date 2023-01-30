@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7929c395d6310e4c8c7396a30d16d84, type: 3}
+  m_Name: Hallway
+  m_EditorClassIdentifier: 
+  descriptionOfRoom: 'You''re in a dark and freezing cold hallway and the stench
+    of decaying flesh is everywhere. You light up the hallway with your flashlight
+    and see a horrific scene. There''re a dozen of carcases wrapped in plastic bags
+    hanging from the ceiling. on one of the carcases you spot a note. The note says
+    that on the back of it you''ll find something that may help you escape, but it
+    also can lead you to your end. '
+  roomName: hallway
+  exits:
+  - stringKey: south
+    exitDescription: You see a door to the south.
+    roomValue: {fileID: 11400000, guid: fb8052939e28e1a44afc846cb59b3ff4, type: 2}
+  - stringKey: north
+    exitDescription: You see a door to the north.
+    roomValue: {fileID: 11400000, guid: 27077fcefe2627141852071e5f9ca7ab, type: 2}
+  interactableObjsInRoom:
+  - {fileID: 11400000, guid: 5dc60b8a9e137014bb0c66d123d8867c, type: 2}

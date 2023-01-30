@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7929c395d6310e4c8c7396a30d16d84, type: 3}
+  m_Name: Gas Chamber
+  m_EditorClassIdentifier: 
+  descriptionOfRoom: You enter a room whose only source of light is a small lamp.
+    The lamp is mounted on the wall. On the ceiling you notice something that resembles
+    a fire sprinkler system. On the north wall you see the words "WELCOM TO MY GAS
+    CHAMBER" written in red paint.  You are horrified. On the east wall you see a
+    door which is locked with a rusty chain and a pad lock and on the west wall you
+    see a brand new keyhole.
+  roomName: gas chamber
+  exits:
+  - stringKey: south
+    exitDescription: You see a door to the south.
+    roomValue: {fileID: 11400000, guid: 032000554a34fc74184872a9aba6e4c1, type: 2}
+  interactableObjsInRoom: []

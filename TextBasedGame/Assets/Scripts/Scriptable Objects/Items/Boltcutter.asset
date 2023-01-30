@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb00fce6a13d704092a3c5d1dfb9fce, type: 3}
+  m_Name: Boltcutter
+  m_EditorClassIdentifier: 
+  noun: boltcutter
+  description: A boltcutter is plased next to the table.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 4708f833b7c41dc4498b7ba9050623c6, type: 2}
+    textResponse: The boltcutter is very old and covered with rust.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: de2d1c6cae7acb544981219505d66c54, type: 2}
+    textResponse: You take the boltcutter.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 481450b5375897e46b231a3e23742117, type: 2}
+    textResponse: You use the boltcutter.
+    actionResponse: {fileID: 11400000, guid: b70190bd50e07c64b85ba44f1abd4a73, type: 2}

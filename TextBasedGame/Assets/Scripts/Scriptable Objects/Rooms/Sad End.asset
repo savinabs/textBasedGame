@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7929c395d6310e4c8c7396a30d16d84, type: 3}
+  m_Name: Sad End
+  m_EditorClassIdentifier: 
+  descriptionOfRoom: 'The key unlockes a hidden door on the west wall. You open the
+    door and it''s pitch black. You step forward and fall into a deep abyss. You
+    hit your head hard on a rock and you lose consciousness. Because of the trauma
+    and the great blood loss, you die.
+
+
+    THE END'
+  roomName: sad end
+  exits: []
+  interactableObjsInRoom: []
